@@ -13,3 +13,7 @@ set(CMAKE_C_STANDARD 99)
 add_subdirectory(
         "${PROJECT_SOURCE_DIR}/M01_Overview/C01_HelloWorld"
         "${PROJECT_SOURCE_DIR}/M01_Overview/C01_HelloWorld/cmake-build-debug")
+
+add_subdirectory(
+        "${PROJECT_SOURCE_DIR}/M02_Syntax/C07_Struct"
+        "${PROJECT_SOURCE_DIR}/M02_Syntax/C07_Struct/cmake-build-debug")
